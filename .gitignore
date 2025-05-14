@@ -1,0 +1,23 @@
+# Dont create github actions for this file
+.github
+
+# Dont create folders
+frontend/
+backend/
+docs/
+scripts/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules
+/node_modules
+
+# Ignore environment files
+# These files are used to store sensitive information and should not be shared
+backend/.env
+frontend/.env
+
+# Ignore patch changes
+# These files are used to store patch changes and should not be shared
+releases/
