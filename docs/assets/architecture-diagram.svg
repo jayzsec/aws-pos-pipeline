@@ -1,0 +1,131 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f5f5f5" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">Point of Sale System - Serverless Architecture</text>
+  
+  <!-- AWS Cloud -->
+  <rect x="50" y="80" width="900" height="580" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="10" ry="10"/>
+  <text x="500" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle">AWS Cloud</text>
+  
+  <!-- AWS VPC -->
+  <rect x="100" y="140" width="800" height="450" fill="#E9F5FF" stroke="#278ECF" stroke-width="2" rx="5" ry="5"/>
+  <text x="130" y="165" font-family="Arial" font-size="16" font-weight="bold">Virtual Private Cloud (VPC)</text>
+  
+  <!-- Public Subnet -->
+  <rect x="125" y="180" width="350" height="390" fill="#D9EFFF" stroke="#278ECF" stroke-width="2" rx="5" ry="5" stroke-dasharray="5,5"/>
+  <text x="155" y="205" font-family="Arial" font-size="14">Public Subnet</text>
+  
+  <!-- Private Subnet -->
+  <rect x="525" y="180" width="350" height="390" fill="#D9EFFF" stroke="#278ECF" stroke-width="2" rx="5" ry="5" stroke-dasharray="5,5"/>
+  <text x="555" y="205" font-family="Arial" font-size="14">Private Subnet</text>
+  
+  <!-- Internet Gateway -->
+  <rect x="475" y="130" width="50" height="30" fill="#FF9900" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="500" y="150" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">IGW</text>
+  
+  <!-- S3 + CloudFront -->
+  <rect x="170" y="240" width="120" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="230" y="270" font-family="Arial" font-size="12" text-anchor="middle">S3 + CloudFront</text>
+  <text x="230" y="285" font-family="Arial" font-size="10" text-anchor="middle">Frontend</text>
+  
+  <!-- Application Load Balancer -->
+  <rect x="160" y="340" width="140" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="230" y="370" font-family="Arial" font-size="12" text-anchor="middle">Application</text>
+  <text x="230" y="385" font-family="Arial" font-size="12" text-anchor="middle">Load Balancer</text>
+  
+  <!-- Cognito -->
+  <rect x="170" y="440" width="120" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="230" y="470" font-family="Arial" font-size="12" text-anchor="middle">Amazon Cognito</text>
+  <text x="230" y="485" font-family="Arial" font-size="10" text-anchor="middle">Authentication</text>
+  
+  <!-- ECS Cluster -->
+  <rect x="540" y="220" width="320" height="180" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="700" y="240" font-family="Arial" font-size="14" text-anchor="middle">ECS Cluster</text>
+  
+  <!-- Fargate Container 1 -->
+  <rect x="560" y="260" width="120" height="120" fill="#FFFFFF" stroke="#FF9900" stroke-width="2" rx="5" ry="5"/>
+  <text x="620" y="310" font-family="Arial" font-size="12" text-anchor="middle">Fargate</text>
+  <text x="620" y="325" font-family="Arial" font-size="10" text-anchor="middle">Node.js API</text>
+  
+  <!-- Fargate Container 2 -->
+  <rect x="720" y="260" width="120" height="120" fill="#FFFFFF" stroke="#FF9900" stroke-width="2" rx="5" ry="5"/>
+  <text x="780" y="310" font-family="Arial" font-size="12" text-anchor="middle">Fargate</text>
+  <text x="780" y="325" font-family="Arial" font-size="10" text-anchor="middle">Node.js API</text>
+  
+  <!-- DynamoDB -->
+  <rect x="580" y="440" width="240" height="100" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <rect x="600" y="460" width="80" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="1" rx="2" ry="2"/>
+  <text x="640" y="490" font-family="Arial" font-size="10" text-anchor="middle">Products</text>
+  <rect x="720" y="460" width="80" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="1" rx="2" ry="2"/>
+  <text x="760" y="490" font-family="Arial" font-size="10" text-anchor="middle">Transactions</text>
+  <text x="700" y="535" font-family="Arial" font-size="14" text-anchor="middle">Amazon DynamoDB</text>
+  
+  <!-- CloudWatch -->
+  <rect x="400" y="580" width="200" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="500" y="610" font-family="Arial" font-size="12" text-anchor="middle">Amazon CloudWatch</text>
+  <text x="500" y="625" font-family="Arial" font-size="10" text-anchor="middle">Monitoring & Alarms</text>
+  
+  <!-- ECR Repository -->
+  <rect x="800" y="580" width="120" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="860" y="610" font-family="Arial" font-size="12" text-anchor="middle">ECR</text>
+  <text x="860" y="625" font-family="Arial" font-size="10" text-anchor="middle">Container Registry</text>
+  
+  <!-- NAT Gateway -->
+  <rect x="350" y="220" width="100" height="40" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="400" y="240" font-family="Arial" font-size="12" text-anchor="middle">NAT</text>
+  <text x="400" y="255" font-family="Arial" font-size="10" text-anchor="middle">Gateway</text>
+  
+  <!-- Client/User -->
+  <rect x="50" y="620" width="120" height="60" fill="#FFFFFF" stroke="#232F3E" stroke-width="2" rx="5" ry="5"/>
+  <text x="110" y="650" font-family="Arial" font-size="12" text-anchor="middle">Clients</text>
+  <text x="110" y="665" font-family="Arial" font-size="10" text-anchor="middle">Web/Mobile</text>
+  
+  <!-- Connections -->
+  <!-- Client to CloudFront -->
+  <line x1="110" y1="620" x2="170" y2="300" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Client to ALB -->
+  <line x1="110" y1="620" x2="170" y2="370" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- CloudFront to API -->
+  <line x1="290" y1="270" x2="560" y2="320" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- ALB to Fargate -->
+  <line x1="300" y1="370" x2="560" y2="320" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <line x1="300" y1="370" x2="720" y2="320" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fargate to DynamoDB -->
+  <line x1="620" y1="380" x2="650" y2="440" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <line x1="780" y1="380" x2="750" y2="440" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fargate to CloudWatch -->
+  <line x1="700" y1="400" x2="500" y2="580" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fargate to Cognito -->
+  <line x1="560" y1="320" x2="290" y2="440" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fargate to NAT Gateway -->
+  <line x1="560" y1="280" x2="450" y2="240" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- NAT Gateway to Internet Gateway -->
+  <line x1="450" y1="220" x2="475" y2="145" stroke="#232F3E" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Define the arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#232F3E"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <rect x="50" y="30" width="200" height="40" fill="#FFFFFF" stroke="#232F3E" stroke-width="1" rx="5" ry="5"/>
+  <text x="150" y="50" font-family="Arial" font-size="12" text-anchor="middle">AWS Architecture Diagram</text>
+  <text x="150" y="65" font-family="Arial" font-size="10" text-anchor="middle">Point of Sale System</text>
+  
+  <!-- Optional ML/AI Extension -->
+  <rect x="580" y="125" width="240" height="60" fill="#FFF4E5" stroke="#FF9900" stroke-width="2" rx="5" ry="5" stroke-dasharray="5,5"/>
+  <text x="700" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#FF9900">ML/AI Extension</text>
+  <text x="700" y="170" font-family="Arial" font-size="10" text-anchor="middle">SageMaker Integration</text>
+</svg>

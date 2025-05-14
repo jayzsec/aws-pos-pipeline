@@ -1,12 +1,6 @@
 # Dont create github actions for this file
 .github
 
-# Dont create folders
-frontend/
-backend/
-docs/
-scripts/
-
 # Ignore macOS system files
 .DS_Store
 
